@@ -1,4 +1,24 @@
-
+/*Le puse color blanco a las letras del footer*/
 #footer a {
     color: white;
+}
+
+/*Ajuste el tamaño del incono del nabvar*/
+#header #controller-icono{
+width: 60px;
+
+}
+
+#carousel {
+
+    position: relative;
+    
+}
+
+/*ajustando el carrusel ubicado en el main*/
+#main .carousel-inner img {
+max-height: 70vh;
+object-fit: cover;
+filter: grayscale(70%);
+
 }
