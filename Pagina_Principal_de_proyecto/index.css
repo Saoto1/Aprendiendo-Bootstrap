@@ -12,7 +12,18 @@ width: 60px;
 #carousel {
 
     position: relative;
-    
+
+}
+
+
+#carousel .overlay{
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background-color:rgb(0, 0,0,0.5) ;
+color: white;
 }
 
 /*ajustando el carrusel ubicado en el main*/
@@ -20,5 +31,14 @@ width: 60px;
 max-height: 70vh;
 object-fit: cover;
 filter: grayscale(70%);
+
+}
+
+.mangasEnEmision{
+    width: auto; margin: auto auto;
+}
+
+.Donaciones:hover{
+    font-weight: bold;
 
 }
